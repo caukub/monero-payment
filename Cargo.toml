@@ -7,5 +7,6 @@ readme = "README.md"
 homepage = "https://github.com/caukub/monero-payment"
 repository = "https://github.com/caukub/monero-payment"
 description = "High level API for processing Monero payments"
-
-[dependencies]
+include = [
+    "**/*.rs",
+]
